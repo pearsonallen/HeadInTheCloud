@@ -2,11 +2,11 @@ const axios = require("axios");
 module.exports = async function (context, req) {
      let value = req.query.value;
     if (value == 1) {
-        v = "28000";
+        v = "14000";
     } else if (value == 2) {
-        v = "63000";
+        v = "48000";
     } else if (value == 3) {
-        v = "95000";
+        v = "80000";
     } else {
         v = 0;
     }
